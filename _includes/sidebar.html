@@ -1,0 +1,17 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>{{ site.title }}</h1>
+      <p class="lead">{{ site.tagline }}</p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}">
+        <a href="/">Home</a>
+      </li>
+      <li class="sidebar-nav-item"><a href="{{ site.github.repo }}">GitHub</a></li>
+    </ul>
+
+    <p>&copy; {{ site.time | date: '%Y' }}. We're in s.r.o.</p>
+  </div>
+</div>

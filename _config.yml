@@ -1,3 +1,14 @@
-name: Your New Jekyll Site
-markdown: redcarpet
-pygments: true
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Docs
+tagline:          "We're in documentation"
+url:              http://werein.cz
+
+github:
+  repo:           https://github.com/werein
